@@ -1,0 +1,12 @@
+[package]
+edition = '2018'
+name = 'ever_bls_lib'
+version = '0.1.83'
+
+[dependencies]
+criterion = '0.3'
+failure = '0.1'
+rand = '0.7'
+rand_chacha = '0.2'
+blst = { features = [ 'portable' ], version = '0.3.5' }
+ton_types = { git = 'ssh://git@github.com/tonlabs/ever-types-private.git', branch = 'master' }
