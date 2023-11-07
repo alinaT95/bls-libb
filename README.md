@@ -1,4 +1,4 @@
-# ton-bls-lib
+<!--# ton-bls-lib
 
 This library is developed to handle BLS signature for TON blockchain. It is responsible for generation BLS keys and provides basic signing/verification functionality. Also it provides aggregation functionality for public keys and signatures. 
 Basic BLS functionality is provided by [blst](https://github.com/supranational/blst) library. _ton-bls-lib_ exploits it and adds additional infrastracture and extra data parsing.
@@ -25,7 +25,7 @@ When we will calculate aggregated public key to verify the final signature we sh
 <img src="../master/bls_diag_4.jpg" width="800">
 </p>
 
-When masterchain validator gets such aggregated BLS signature in broadcast protection message, he will parse it. He will take respective BLS public keys based on indexes in wrapped BLS signature. It will take into account the number of repetitions for each public key and compute the appropriate aggregation of public keys. Then it will verify the signature.
+When masterchain validator gets such aggregated BLS signature in broadcast protection message, he will parse it. He will take respective BLS public keys based on indexes in wrapped BLS signature. It will take into account the number of repetitions for each public key and compute the appropriate aggregation of public keys. Then it will verify the signature.-->
 
 ## API description
 
